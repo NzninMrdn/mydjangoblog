@@ -1,3 +1,13 @@
 body {
     background-color: darkslategray;
+    color: green;
+}
+
+body *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: coral;
 }
