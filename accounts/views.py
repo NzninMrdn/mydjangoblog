@@ -3,8 +3,8 @@ from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 def signup_view(request):
-    if request.method == "POST":
-        form = UserCreationForm(request.POST)
+    if request.method == "post":
+        form = UserCreationForm(request.post)
         if form.is_valid():
             form.save()
             # login
